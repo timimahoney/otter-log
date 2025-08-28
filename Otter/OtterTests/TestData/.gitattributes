@@ -1,0 +1,6 @@
+*.logarchive* filter=lfs diff=lfs merge=lfs -text
+0128327391233D4C8494E5FA1711DEC5 filter=lfs diff=lfs merge=lfs -text
+F228BFFAE0C63B72B8771994D9CBA12F filter=lfs diff=lfs merge=lfs -text
+sample-iossysdiagnose.logarchive.zip filter=lfs diff=lfs merge=lfs -text
+sample-million.logarchive.zip filter=lfs diff=lfs merge=lfs -text
+sample-roman.logarchive.zip filter=lfs diff=lfs merge=lfs -text

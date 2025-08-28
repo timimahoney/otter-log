@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23D5051b" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Entry" representedClassName="OTEntry" syncable="YES">
+        <attribute name="activityIdentifierValue" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="levelValue" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="message" attributeType="String"/>
+        <attribute name="parentActivityIdentifierValue" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="process" attributeType="String"/>
+        <attribute name="processIdentifier" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sender" attributeType="String"/>
+        <attribute name="signpostIdentifierValue" optional="YES" attributeType="Binary"/>
+        <attribute name="signpostName" optional="YES" attributeType="String"/>
+        <attribute name="signpostTypeValue" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="subsystem" optional="YES" attributeType="String"/>
+        <attribute name="threadIdentifier" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="typeValue" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <fetchIndex name="date">
+            <fetchIndexElement property="date" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="process">
+            <fetchIndexElement property="process" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="level">
+            <fetchIndexElement property="levelValue" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="activityIdentifier">
+            <fetchIndexElement property="activityIdentifierValue" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="message">
+            <fetchIndexElement property="message" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="parentActivityIdentifier">
+            <fetchIndexElement property="parentActivityIdentifierValue" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="processIdentifier">
+            <fetchIndexElement property="processIdentifier" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="sender">
+            <fetchIndexElement property="sender" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="signpostIdentifier">
+            <fetchIndexElement property="signpostIdentifierValue" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="signpostName">
+            <fetchIndexElement property="signpostName" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="signpostType">
+            <fetchIndexElement property="signpostTypeValue" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="threadIdentifier">
+            <fetchIndexElement property="threadIdentifier" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="type">
+            <fetchIndexElement property="typeValue" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="subsystem">
+            <fetchIndexElement property="subsystem" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="category">
+            <fetchIndexElement property="category" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+</model>

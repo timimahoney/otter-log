@@ -1,0 +1,12 @@
+//
+//  Base_Debug.xcconfig
+//  Otter
+//
+//  Created by Tim Mahoney on 1/14/24.
+//
+
+#include "Base.xcconfig"
+
+IS_DEBUG = 1
+GCC_OPTIMIZATION_LEVEL = 0
+SWIFT_OPTIMIZATION_LEVEL = -Onone

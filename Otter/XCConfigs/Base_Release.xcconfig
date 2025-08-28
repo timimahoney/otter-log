@@ -1,0 +1,8 @@
+//
+//  Base_Release.xcconfig
+//  Otter
+//
+//  Created by Tim Mahoney on 1/14/24.
+//
+
+#include "Base.xcconfig"
