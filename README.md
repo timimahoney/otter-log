@@ -49,7 +49,3 @@ Contributions are welcome! Here are some ideas for improvements:
 - **Cleanup**: Just make this thing generally better and cleaner
 
 Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-## License
-
-I honestly don't even know. The code is here and it's not my fault if it hurts you.
